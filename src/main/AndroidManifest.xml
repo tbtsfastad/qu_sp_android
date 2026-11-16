@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <provider
+            android:name="com.example.qu_sp.QUSPInitializer"
+            android:authorities="${applicationId}.qu_sp_initializer"
+            android:exported="false" />
+    </application>
+
+</manifest>
