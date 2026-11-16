@@ -4,12 +4,12 @@ plugins {
 }
 
 group = "com.github.tbtsfastad"
-version = System.getenv("VERSION") ?: "1.0.0-SNAPSHOT"
+version = System.getenv("VERSION") ?: "1.0.1-SNAPSHOT"
 
 android {
     namespace = "com.example.qu_sp"
     compileSdk {
-        version = release(37) {
+        version = release(36) {
             minorApiLevel = 0
         }
     }
